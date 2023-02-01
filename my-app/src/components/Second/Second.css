@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+.title{
+    color: rgb(56, 146, 210);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    align-items: center;
+    justify-items: center;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+p{
+    width: 600px;
+    display:relative;
+    margin-left: 1500px;
+    
+}
+.phone{
+    width: 250px;
+    height: 30px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.user-details{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.details{
+    display: block;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+input:hover{
+    background-color:skyblue
+}
+.btn{
+    /* display: block; */
+    background-color: azure;
+    color: black;
+    margin: 10px;
+    
+}
+.otp{
+    width: 100px;
+    height: 50px;
+    display: relative;
+    margin-right: 100px;
+    background-color: rgb(34, 200, 19);
+    margin-left: 10px;
+    
+}
+.btn:hover{
+    background-color:rgb(25, 163, 218);
+    color: aliceblue;
+}
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color:black;
+    color: azure;
+    border-radius: 10px;
+}
+.inp{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+}
